@@ -1,13 +1,3 @@
-# Sample Hardhat Project
+# NFTs with Onchain Metadata
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+Contract Address : 0xAB5e9296336A63cD58E79fc41d18c7854d5d5587

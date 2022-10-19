@@ -81,7 +81,7 @@ contract ChainBattles is ERC721URIStorage {
             "You must own this token to train it"
         );
         uint256 currentLevel = tokenIdToLevels[tokenId];
-        tokenIdToLevels[tokenId] = currentLevels + 1;
+        tokenIdToLevels[tokenId] = currentLevel + 1;
         _setTokenURI(tokenId, getTokenURI(tokenId));
     }
 }
